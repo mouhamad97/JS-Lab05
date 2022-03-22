@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+const isPlainObject = (obj1) =>{
+
+if(Array.isArray(obj)){
+    return false;
+
+ } else if(obj==null ){
+    return false;
+    }
+
+ else if(typeof(obj) =="object" ){
+    return true;
+    }
+}
+        const isObject = (obj) => {
+            if(isPlainObject)
+            {
+                obj.isObject = true;
+          console.log(obj)
+
+obj.getPropertiesNb= function(obj){
+    for (let propertiesnum in obj) {
+ let count = count + 1
+}
+
+obj.getPropertiesNb.call(obj);
+
+
+}
+            }
+
+
+      
+
+        }
+
+        console.log(isObject(person = {
+            firstName: 'John',
+            lastName: 'Doe'
+        })); 
+    </script>
+
+</body>
+
+</html>
